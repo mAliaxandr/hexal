@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Hexal</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>hexal</h1>
+            <nav class="navigation">
+                <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div> 
+                <span class="item">
+                    <a href="#portfolio">portfolio</a>
+                    <a href="#about">about</a>
+                    <span class="plato"></span>
+                    <a href="#">blog</a>
+                    <a href="#get">get in touch</a>
+                </span>
+                <span><div class="dotL"></div></span>
+                <span><div class="dotR"></div></span>
+            </nav>
+        </header>
+        <main>
+            <section id="portfolio" class="hexagon-container">
+                <div class="empty-line-left"></div>
+                <div class="empty-line-right"></div>
+                <div class="line-1">
+                    <span><div class="empty-line-vertical-left"></div></span>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex1"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex2"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex3"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex4"></div></div></div>
+                    <div class="empty-line-vertical-right"></div>
+                </div>
+                <div class="line-2">
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex5"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex6"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex7"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex8"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex9"></div></div></div>
+                </div>
+                <div class="line-3">
+                    <div class="empty-line-vertical-left"></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex10"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex11"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex12"></div></div></div>
+                    <div class="hexagon"><div class="hex-layer-1"><div class="hex-layer-2 hex13"></div></div></div>
+                    <div class="empty-line-vertical-right"></div>
+                </div>
+                <div class="slider-draver">
+                    <div class="slider-position"></div><!--
+                    --><div class="slider-position"></div><!--
+                    --><div class="slider-position dark"></div><!--
+                    --><div class="slider-position"></div><!--
+                    --><div class="slider-position"></div><!--
+                    --><div class="slider-position"></div>
+                </div>
+                <span><div class="empty-line-vertical-bottom"></div></span>
+            </section>
+            <section id="about" class="info">
+                <article class="desc">
+                    <div class="hexagon-author"><div class="hex-layer-1"><div class="hex-layer-2 hex-author"></div></div></div>
+                    <div class="info-about">
+                        <div class="info-name">
+                            <h3>Smith Anderson</h3> 
+                            <p>Illustrator & Character Desidner</p>
+                        </div>
+                        <div class="info-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhon-</p><p>cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna </p>
+                        </div>
+                        <div class="social">
+                            <a href="https://facebook.com" target="_blank"><img src="assets/img/facebook.png" alt="Facebook"></a><!--
+                            --><a href="https://twitter.com" target="_blank"><img src="assets/img/Twitter.png" alt="Twitter"></a><!--
+                            --><a href="https://plus.google.com" target="_blank"><img src="assets/img/Google.png" alt="Google+"></a><!-- 
+                            --><a href="https://www.pinterest.com" target="_blank"><img src="assets/img/Pinterest.png" alt="Pinterest"></a><!--
+                            --><a href="https://www.linkedin.com" target="_blank"><img src="assets/img/Linkedin.png" alt="Linkedin"></a><!--
+                            --><a href="https://dribbble.com" target="_blank"><img src="assets/img/dribbble.png" alt="Dribbble"></a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="get" class="form-section">
+                <div class="form-wrap">
+                    <div class="form">
+                        <h3>Get In Touch</h3>
+                        <p>In order to get in touch use the contact from below:</p>
+                        <form id="post" action="index.php" method="POST" class="in-touch-form">
+                            <input type="text" name="user-name" class="input-text" placeholder="Name(Required)" required>
+                            <input type="email" name="user-email" class="input-text" placeholder="Email(Required)" required>
+                            <input type="text" name="user-subject" class="input-text" placeholder="Subject">
+                            <textarea name="user-text" id="text"  class="input-text" placeholder="Write your message here..."></textarea>
+                        </form>
+                        <button type="submit" class="button-submit" form="post">send</button>
+                    </div>
+                    <div class="form-aside1">
+                        <p><span class="form-aside1-bold">Quisque Hendrerit:</span>  purus dapi-<br>
+                        bus, ornare nibh vitae, viverra<br>
+                        nibh. Fusce vitae aliquam tellus.<br>
+                        Proin sit amet volutpat libero.<br>
+                        Nulla sed nunc et tortor luctus<br>
+                        faucibus morbi vitae. </p>
+                    </div>
+                    <div class="form-aside2">
+                        <div class="form-aside2-icons">
+                            <span class="form-aside2-icons-location-action"><img class="form-aside2-icons-location" src="assets/img/location.png" alt="Location"><div class="come"><h3>COME TO US</h3></h4></div></span>
+                            <span class="form-aside2-icons-phone-action"><img class="form-aside2-icons-phone" src="assets/img/phone.png" alt="Phone"><div class="call"><h3>CALL US</h3><h4>+ 3528 331 86 35</h4></div></span>
+                            <span class="form-aside2-icons-mail-action"><img class="form-aside2-icons-mail" src="assets/img/mail.png" alt="Mail"><div class="write"><h3>Write US</h3><h4>info@hexalcorp.com</h4></div></span>
+                        </div>
+                        <div class="form-aside2-contacts">
+                            <p>Elm St. 14/05 Lost City </p>
+                            <p>+ 3528 331 86 35</p>
+                            <p>info@hexalcorp.com</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-text">
+                <p>© Copyright 2013 by PSDchat</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
